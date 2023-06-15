@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dropdown-item{
+    color: #fff !important;
+}
+
+.dropdown-item:hover{
+    color: #fff !important;
+    background-color: #18181a80 !important;
+    transition: 100ms linear; 
+}
+
+.dropdown-menu{
+    background-color: #2B2D31 !important;
+}
+
+.divImage {
+    background-color: black;
+    background: url(../imagem_dna.png);
+    height: 800px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.title {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.subtitle {
+    color: #fff;
+}
+
+.initialTexts {
+    position: relative;
+    display: table;
+    top: 230px;
+    height: 150px;
+    text-shadow: -1px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+.sobreAreaBackground {
+    min-height: 1500px;
+    background-color: #2B2D31;
+}
+
+.perfilArea_textDiv {
+    position: relative;
+    height: 80px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 100px;
+}
+
+.title_perfil {
+    color: white;
+}
+
+
+
+.DivText_perfilArea_Box {
+    position: relative;
+    min-height: 400px;
+    top: 30%;
+    color: white;
+}
+
+.textPerfilBox {
+    margin-top: 100px;
+    font-size: 1.3rem;
+}
+
+.sobreAreaTitleDiv {
+    position: relative;
+    height: 80px;
+    width: 300px;
+}
+
+.sobreArea_BoxDiv {
+    position: relative;
+    min-height: 250px;
+    width: 80vw;
+    background-color: #2020238e;
+    top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.textSobreAreaDiv {
+    position: relative;
+    min-height: 60%;
+    width: 80%;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textSobreArea {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.division {
+    position: relative;
+    background-color: #353535;
+    height: 10px;
+}
+
+.background_boxes {
+    position: relative;
+    background-color: aqua;
+    min-height: 1000px;
+    background: url(../background2.jpg);
+    background-size: cover;
+}
+
+.FuncoesDivGeral {
+    position: relative;
+    background-color: rgba(0, 255, 255, 0);
+
+    height: 680px;
+
+    margin-left: 5vw;
+}
+
+.funcoesText_Div {
+
+    text-align: center;
+    height: 80px;
+}
+
+.funcoesAreaDiv {
+
+    height: 500px;
+    background-color: #202023d8;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.textFuncoesDiv {
+
+    top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 255, 255, 0);
+    height: 90%;
+}
+
+.textFuncoes {
+    font-size: 1.3rem;
+}
+
+.textMercadoDiv {
+
+    top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 255, 255, 0);
+    height: 90%;
+}
+
+.textMercado {
+    font-size: 1.3rem;
+}
+
+.MercadoDivGeral {
+
+    background-color: rgba(0, 255, 255, 0);
+    height: 680px;
+
+    margin-left: 60vw;
+}
+
+.mercadoText_Div {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 80px;
+}
+
+.mercadoAreaDiv {
+
+    height: 500px;
+    background-color: #202023d8;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.funcoesarea {
+    margin-top: 20px;
+    height: 600px;
+}
+
+.mercadoarea {
+    margin-top: 20px;
+    height: 600px;
+    min-width: 400px;
+
+}
+
+.text {
+    color: #fff;
+    padding: 30px;
+}
+
+.funcoesArea_Box {
+    padding-left: 30px;
+    padding-right: 20px;
+    position: relative;
+    background-color: #2020238e;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.mercadoArea_Box {
+    padding-left: 30px;
+    padding-right: 20px;
+    position: relative;
+    background-color: #2020238e;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.row-cards {
+    position: relative;
+    top: 50px;
+}
+
+.align-left {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.bg-biomedicina {
+    min-height: 900px;
+    background-image: url(../bg-biomedicina.jpg);
+    background-size: cover;
+}
+
+.bg-biotecnologia {
+    min-height: 900px;
+    background-image: url(../bg-biotecnologia.jpg);
+    background-size: cover;
+}
+
+
+.bg-biologia {
+    min-height: 900px;
+    background-image: url(../bg-biologia.jpg);
+    background-size: cover;
+}
+
+.finaldiv {
+    height: 300px;
+    background-color: #2B2D31;
+}
+
+.grdcurr-curso {
+    background-color: #ffffff00;
+    min-height: 400px;
+}
+
+.division-between-areas{
+    background-color: #2B2D31; 
+    height: 270px;
+    width: 100%;
+}
+
+.--bs-dropdown-bg{
+    background-color: #2B2D31;
+}
+
+.card{
+    color: #fff !important;
+    background-color: #2b2d31 !important;
+    padding: 0 0 !important;
+}
+
+.card:hover{
+    color: #fff !important;
+    background-color: #1d1e20 !important;
+    padding: 0 0 !important;
+    transition: 500ms linear; 
+}
+
+.inicio-bacharelados-area{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #2B2D31;
+}
