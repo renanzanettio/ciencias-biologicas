@@ -1,20 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --background: #1a1d21;
+    --white: #ffffff;
+    --green: #65d0d4;
+}
+
 * {
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: #fff !important;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: #fff !important;
     background-color: #18181a80 !important;
-    transition: 100ms linear; 
+    transition: 100ms linear;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #2B2D31 !important;
 }
 
@@ -45,7 +54,7 @@
 
 .sobreAreaBackground {
     min-height: 1500px;
-    background-color: #2B2D31;
+    background-color: var(--background);
 }
 
 .perfilArea_textDiv {
@@ -107,11 +116,60 @@
     padding: 10px;
 }
 
-.division {
-    position: relative;
-    background-color: #353535;
-    height: 10px;
+.bg-cursos {
+
+    min-height: 1200px;
+    background-color: var(--background);
+    color: var(--white);
 }
+
+.hr-space {
+    margin-bottom: 150px;
+}
+
+
+.txt-cursos {
+    font-size: 54px;
+}
+
+
+.div-cards-cursos {
+    align-items: space-between;
+    flex-direction: column;
+}
+
+.txt-saiba-mais {
+    padding: 20px;
+    color: var(--green);
+}
+
+.txt-saiba-mais:hover {
+    color: #000;
+    transition: color .6s linear;
+}
+
+.cards-cursos {
+    top: 0;
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 0;
+    display: inline-block;
+    position: relative;
+    width: 23%;
+    min-width: 220px;
+    min-height: 350px;
+    max-height: 350px;
+
+}
+
+.cards-cursos:hover {
+    color: #000;
+    transition: background-color .6s linear;
+    background-color: var(--green);
+}
+
+
+
 
 .background_boxes {
     position: relative;
@@ -123,8 +181,6 @@
 
 .FuncoesDivGeral {
     position: relative;
-    background-color: rgba(0, 255, 255, 0);
-
     height: 680px;
 
     margin-left: 5vw;
@@ -190,7 +246,7 @@
 .mercadoAreaDiv {
 
     height: 500px;
-    background-color: #202023d8;
+    background-color: var(--background);
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -241,28 +297,100 @@
     text-align: left;
 }
 
-.bg-biomedicina {
+.bg-biologia {
     min-height: 900px;
-    background-image: url(../bg-biomedicina.jpg);
+    background: #00000080 url(../bg-biologia.jpg);
     background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biologia-marinha {
+    min-height: 900px;
+    background: #00000080 url(../bg-biologia-marinha.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-botanica {
+    min-height: 900px;
+    background: #00000080 url(../bg-botanica.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biologia-computacional {
+    min-height: 900px;
+    background: #00000080 url(../bg-biologia-computacional.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-ciencias-biologicas {
+    min-height: 900px;
+    background: #00000080 url(../bg-ciencias-biologicas.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biologia-molecular-e-genetica {
+    min-height: 900px;
+    background: #00000080 url(../bg-biologia-molecular-e-genetica.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-ecologia {
+    min-height: 900px;
+    background: #00000080 url(../bg-ecologia.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biologia-do-desenvolvimento {
+    min-height: 900px;
+    background: #00000080 url(../bg-biologia-do-desenvolvimento.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .bg-biotecnologia {
     min-height: 900px;
-    background-image: url(../bg-biotecnologia.jpg);
+    background: #00000080 url(../bg-biotecnologia.jpg);
     background-size: cover;
+    background-blend-mode: overlay;
 }
 
-
-.bg-biologia {
+.bg-analises-ambientais {
     min-height: 900px;
-    background-image: url(../bg-biologia.jpg);
+    background: #00000080 url(../bg-analises-ambientais.jpg);
     background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-gestao-ambiental {
+    min-height: 900px;
+    background: #00000080 url(../bg-gestao-ambiental.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-saneamento-ambiental {
+    min-height: 900px;
+    background: #00000080 url(../bg-saneamento-ambiental.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biomedicina {
+    min-height: 900px;
+    background: #00000080 url(../bg-biomedicina.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .finaldiv {
     height: 300px;
-    background-color: #2B2D31;
+    background-color: var(--background);
 }
 
 .grdcurr-curso {
@@ -270,31 +398,41 @@
     min-height: 400px;
 }
 
-.division-between-areas{
-    background-color: #2B2D31; 
+.division-between-areas {
+    background-color: var(--background);
     height: 270px;
     width: 100%;
 }
 
-.--bs-dropdown-bg{
-    background-color: #2B2D31;
+.--bs-dropdown-bg {
+    background-color: var(--background);
 }
 
-.card{
+.card {
     color: #fff !important;
-    background-color: #2b2d31 !important;
+    background-color: var(--background) !important;
     padding: 0 0 !important;
+    margin-bottom: 20px;
 }
 
-.card:hover{
+.card:hover {
     color: #fff !important;
     background-color: #1d1e20 !important;
     padding: 0 0 !important;
-    transition: 500ms linear; 
+    transition: 500ms linear;
 }
 
-.inicio-bacharelados-area{
+.inicio-bacharelados-area {
     padding: 0 !important;
     margin: 0 !important;
-    background-color: #2B2D31;
+    background-color: var(--background);
+}
+
+.img-bio {
+    max-width: 25%;
+}
+
+.acordeao-pos{
+    background-color: #1a1d21;
+    min-height: 400px;
 }
