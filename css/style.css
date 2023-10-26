@@ -388,6 +388,48 @@
     background-blend-mode: overlay;
 }
 
+.bg-neurociencias-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-neurociencias-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-genetica-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-genetica-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-bio-cel-mol-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-bio-cel-mol-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biologia-marinha-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-biologia-marinha-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-ecologia-conservacao-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-ecologia-conservacao-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-biotecnologia-pos{
+    min-height: 900px;
+    background: #00000080 url(../bg-biotecnologia-pos.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
 .finaldiv {
     height: 300px;
     background-color: var(--background);
@@ -435,4 +477,10 @@
 .acordeao-pos{
     background-color: #1a1d21;
     min-height: 400px;
+}
+
+
+.cards-row{
+    display: flex;
+    justify-content: center;
 }
